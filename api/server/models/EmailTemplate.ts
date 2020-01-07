@@ -36,7 +36,12 @@ async function insertTemplates() {
           Thanks for signing up on our <a href="https://github.com/async-labs/saas" target="blank">SaaS boilerplate</a>!
         </p>
         <p>
-          If you're learning how to build a SaaS web app, check out our 2 books:
+          The basic boilerplate on our GitHub repo is free.<br/>
+          If you are interested in adding custom features to this boilerplate, please fill out our
+          <a href="https://builderbook.org/custom-saas-boilerplate" target="blank">form</a>.
+        </p>
+        <p>
+          If you are learning how to build a SaaS web app, check out our 2 books:
            <a href="https://builderbook.org" target="blank">Builder Book</a>
            and
            <a href="https://builderbook.org/book" target="blank">SaaS Boilerplate</a>.
@@ -51,7 +56,7 @@ async function insertTemplates() {
     },
     {
       name: 'invitation',
-      subject: 'You are invited to join a Team at async-await.com',
+      subject: 'You are invited to join a Team at saas-app.builderbook.org',
       message: `You've been invited to join <b><%= teamName%></b>.
         <br/>Click here to accept the invitation: <%= invitationURL%>
       `,
@@ -67,7 +72,7 @@ async function insertTemplates() {
     },
     {
       name: 'login',
-      subject: 'Login link for saas-app.async-await.com',
+      subject: 'Login link for saas-app.builderbook.org',
       message: `
         <p>Log into your account by clicking on this link: <a href="<%= loginURL %>"><%= loginURL %></a>.</p>`,
     },
